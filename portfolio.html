@@ -31,10 +31,20 @@
             </nav>
             <ul class="contacts">
                 <li class="contact-item">
-                    <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-link" href="mailto:info@devstudio.com">
+                        <svg class="contact-link-icon envelope">
+                            <use href="./icons/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
                 <li class="contact-item">
-                    <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="contact-link" href="tel:+380961111111">
+                        <svg class="contact-link-icon smartphone">
+                            <use href="./icons/sprite.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -63,7 +73,7 @@
                 <ul class="portfolio-options">
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-1.png" alt="ноутбук с открытым сайтом">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-1.jpg" alt="ноутбук с открытым сайтом">
                             <div class="card-description">
                                 <h2 class="card-name">Технокряк</h2>
                                 <p class="card-type">Веб-сайт</p>
@@ -73,7 +83,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-2.png" alt="игра в баскетбол">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-2.jpg" alt="игра в баскетбол">
                             <div class="card-description">
                                 <h2 class="card-name">Постер New Orlean vs Golden Star</h2>
                                 <p class="card-type">Дизайн</p>
@@ -83,7 +93,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-3.png" alt="эмблема ресторана с большой рыбой">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-3.jpg" alt="эмблема ресторана с большой рыбой">
                             <div class="card-description">
                                 <h2 class="card-name">Ресторан Seafood</h2>
                                 <p class="card-type">Приложение</p>
@@ -93,7 +103,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-4.png" alt="наушники">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-4.jpg" alt="наушники">
                             <div class="card-description">
                                 <h2 class="card-name">Проект Prime</h2>
                                 <p class="card-type">Маркетинг</p>
@@ -103,7 +113,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-5.png" alt="две коробки">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-5.jpg" alt="две коробки">
                             <div class="card-description">
                                 <h2 class="card-name">Проект Boxes</h2>
                                 <p class="card-type">Приложение</p>
@@ -113,7 +123,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-6.png" alt="монитор">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-6.jpg" alt="монитор">
                             <div class="card-description">
                                 <h2 class="card-name">Inspiration has no Borders</h2>
                                 <p class="card-type">Веб-сайт</p>
@@ -123,7 +133,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-7.png" alt="открытая книга с картинками">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-7.jpg" alt="открытая книга с картинками">
                             <div class="card-description">
                                 <h2 class="card-name">Издание Limited Edition</h2>
                                 <p class="card-type">Дизайн</p>
@@ -133,7 +143,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-8.png" alt="бирка">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-8.jpg" alt="бирка">
                             <div class="card-description">
                                 <h2 class="card-name">Проект LAB</h2>
                                 <p class="card-type">Маркетинг</p>
@@ -143,7 +153,7 @@
                     </li>
                     <li class="option-item">
                         <a class="portfolio-card" href="">
-                            <img class="portfolio-pic" src="./images-portfolio/portf-9.png" alt="работающий ноутбук">
+                            <img class="portfolio-pic" src="./images-portfolio/portf-9.jpg" alt="работающий ноутбук">
                             <div class="card-description">
                                 <h2 class="card-name">Growing Business</h2>
                                 <p class="card-type">Приложение</p>
@@ -158,22 +168,57 @@
     
     <footer class="footer">
         <div class="container">
-            <a class="logo footer-logo" href="./index.html" lang="en">
-                <span class="logo-part-one">Web</span><span class="logo-part-two-footer">Studio</span>
-            </a>
+            <div class="footer-navigation">
+                <a class="logo footer-logo" href="./index.html" lang="en">
+                    <span class="logo-part-one">Web</span><span class="logo-part-two-footer">Studio</span>
+                </a>
     
-            <ul class="footer-list">
-                <li class="footer-item">
-                    <a class="footer-address" href="https://goo.gl/maps/QC9Pbh4n8E9bidxp7">г. Киев, пр-т Леси Украинки,
-                        26</a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a class="footer-address" href="https://goo.gl/maps/QC9Pbh4n8E9bidxp7">г. Киев, пр-т Леси Украинки,
+                            26</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-container">
+                <p class="footer-text">Присоединяйтесь</p>
+                <ul class="footer-social-list">
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./icons/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./icons/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./icons/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./icons/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
